@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #003f63;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #ffda77;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+    background: #ffda77;
+    color: #003f63;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('https://via.placeholder.com/1500x500?text=Restaurant+Hero') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 15px 0 25px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.btn {
+    background: #ffda77;
+    color: #003f63;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffc107;
+    color: #002a46;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 320px;
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ffda77;
+}
+
+.menu-item h3 {
+    margin: 15px 0 10px;
+    color: #003f63;
+}
+
+.menu-item p {
+    margin: 10px;
+    color: #666;
+}
+
+.price {
+    color: #ff6347;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #003f63;
+    color: #ffda77;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
